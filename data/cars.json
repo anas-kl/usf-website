@@ -1,6 +1,6 @@
 {
-  "version": "1772319237606",
-  "updatedAt": "2026-02-28T22:53:57.606Z",
+  "version": "1772319371575",
+  "updatedAt": "2026-02-28T22:56:11.575Z",
   "cars": [
     {
       "id": "car-1772316362960",
@@ -81,18 +81,18 @@
     {
       "id": "car-1772318246014",
       "category": "Luxe",
-      "name": "KH",
+      "name": "KH?",
       "price": "9",
       "unit": "MAD/jour",
       "features": [
         "J"
       ],
       "badge": "HH",
-      "imagePublicId": "usf-cars/car-1772318245254",
+      "imagePublicId": "usf-cars/car-1772319353013",
       "imageAlt": "HH",
       "active": true,
       "createdAt": "2026-02-28T22:37:26.014Z",
-      "updatedAt": "2026-02-28T22:37:26.014Z"
+      "updatedAt": "2026-02-28T22:55:54.555Z"
     },
     {
       "id": "car-1772319221258",
