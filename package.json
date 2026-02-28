@@ -1,0 +1,9 @@
+{
+  "name": "usf-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "USF Luxury Cars - Site vitrine",
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}

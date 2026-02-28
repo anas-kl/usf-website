@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="USF Luxury Cars — Location de voitures de luxe et économiques à Tanger, Maroc. Réservation rapide via WhatsApp. Disponible 7j/7. À partir de 250 MAD/jour.">
+  <meta name="keywords" content="location voiture Tanger, car rental Tangier, location voiture luxe Maroc, USF Luxury Cars, location SUV Tanger">
+  <meta name="author" content="USF Luxury Cars">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="USF Luxury Cars — Location de Voitures à Tanger">
+  <meta property="og:description" content="Location de voitures de luxe, SUV et économiques à Tanger. Réservation via WhatsApp, disponible 7j/7.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_MA">
+  <meta property="og:image" content="images/og-image.webp">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="USF Luxury Cars — Location de Voitures à Tanger">
+  <meta name="twitter:description" content="Location de voitures premium à Tanger. Réservation via WhatsApp.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Preconnect fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Preconnect Cloudinary CDN (images served from here in production) -->
+  <link rel="preconnect" href="https://res.cloudinary.com">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Analytics 4 — replace G-XXXXXXXXXX with real ID from CONFIG -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script> -->
+
+  <title>USF Luxury Cars — Location de Voitures à Tanger, Maroc</title>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="main-nav" role="navigation" aria-label="Navigation principale"></nav>
+
+  <main>
+    <!-- 1. HERO -->
+    <section id="hero" aria-label="Accueil USF Luxury Cars"></section>
+
+    <!-- 2. FLEET
+         Populated asynchronously from /data/cars.json (GitHub Pages CDN).
+         Falls back to CONFIG.fleet if the fetch fails (CdC criterion 13). -->
+    <section id="flotte" aria-label="Notre flotte de véhicules"></section>
+
+    <!-- 3. WHY CHOOSE US -->
+    <section id="pourquoi-nous" aria-label="Pourquoi choisir USF Luxury Cars"></section>
+
+    <!-- 4. PROCESS -->
+    <section id="processus" aria-label="Comment réserver"></section>
+
+    <!-- 5. TESTIMONIALS -->
+    <section id="temoignages" aria-label="Témoignages clients"></section>
+
+    <!-- 6. FAQ -->
+    <section id="faq" aria-label="Questions fréquentes"></section>
+
+    <!-- 7. CONTACT -->
+    <section id="contact" aria-label="Nous contacter"></section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" role="contentinfo"></footer>
+
+  <!--
+    Script load order matters — each file depends on the previous:
+      1. config.js  → defines CONFIG (fleet fallback, Cloudinary cloudName, business info)
+      2. icons.js   → defines ICONS (SVG constants used by main.js)
+      3. main.js    → uses CONFIG + ICONS, fetches /data/cars.json at runtime
+  -->
+  <script src="js/config.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
