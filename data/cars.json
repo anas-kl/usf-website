@@ -1,22 +1,24 @@
 {
-  "version": "1772306601473",
-  "updatedAt": "2026-02-28T19:23:21.473Z",
+  "version": "1772310593729",
+  "updatedAt": "2026-02-28T20:29:53.729Z",
   "cars": [
     {
       "id": "car-1772306573686",
       "category": "Économique",
-      "name": "DDD",
+      "name": "CAR NAME TEST",
       "price": "90",
-      "unit": "90 MAD/jour",
+      "unit": "91 MAD/jour",
       "features": [
-        "JJJ"
+        "jjj",
+        "kkk",
+        "ddd sss"
       ],
-      "badge": "JK",
-      "imagePublicId": "usf-cars/car-1772306572718",
-      "imageAlt": "JLLI",
+      "badge": "VIP",
+      "imagePublicId": "usf-cars/car-1772306660922",
+      "imageAlt": "bla image bla",
       "active": true,
       "createdAt": "2026-02-28T19:22:53.686Z",
-      "updatedAt": "2026-02-28T19:22:53.686Z"
+      "updatedAt": "2026-02-28T19:24:22.224Z"
     }
   ]
 }
