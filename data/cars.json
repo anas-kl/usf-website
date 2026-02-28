@@ -1,11 +1,11 @@
 {
-  "version": "1772317574382",
-  "updatedAt": "2026-02-28T22:26:14.382Z",
+  "version": "1772319237606",
+  "updatedAt": "2026-02-28T22:53:57.606Z",
   "cars": [
     {
       "id": "car-1772316362960",
       "category": "Économique",
-      "name": "TEST NAME",
+      "name": "TEST NAME 8",
       "price": "404",
       "unit": "MAD/jour",
       "features": [
@@ -14,29 +14,30 @@
         "FF"
       ],
       "badge": "VIP",
-      "imagePublicId": "usf-cars/car-1772316362196",
+      "imagePublicId": "usf-cars/car-1772318073945",
       "imageAlt": "BLA BLA BLA BLA",
       "active": true,
       "createdAt": "2026-02-28T22:06:02.960Z",
-      "updatedAt": "2026-02-28T22:06:02.960Z"
+      "updatedAt": "2026-02-28T22:34:35.382Z"
     },
     {
       "id": "car-1772316424050",
       "category": "SUV",
-      "name": "TEST 2",
+      "name": "TEST 22",
       "price": "9000",
       "unit": "MAD/jour",
       "features": [
         "4 PLACE",
         "RRR",
-        "WAW"
+        "WAW",
+        "K"
       ],
       "badge": "BEST",
-      "imagePublicId": "usf-cars/car-1772316423521",
+      "imagePublicId": "usf-cars/car-1772317661252",
       "imageAlt": "BLA BLA",
       "active": true,
       "createdAt": "2026-02-28T22:07:04.050Z",
-      "updatedAt": "2026-02-28T22:07:04.050Z"
+      "updatedAt": "2026-02-28T22:27:43.000Z"
     },
     {
       "id": "car-1772316968671",
@@ -76,6 +77,38 @@
       "active": true,
       "createdAt": "2026-02-28T22:25:14.706Z",
       "updatedAt": "2026-02-28T22:25:14.706Z"
+    },
+    {
+      "id": "car-1772318246014",
+      "category": "Luxe",
+      "name": "KH",
+      "price": "9",
+      "unit": "MAD/jour",
+      "features": [
+        "J"
+      ],
+      "badge": "HH",
+      "imagePublicId": "usf-cars/car-1772318245254",
+      "imageAlt": "HH",
+      "active": true,
+      "createdAt": "2026-02-28T22:37:26.014Z",
+      "updatedAt": "2026-02-28T22:37:26.014Z"
+    },
+    {
+      "id": "car-1772319221258",
+      "category": "Économique",
+      "name": "MEOW",
+      "price": "999",
+      "unit": "MAD/jour",
+      "features": [
+        "JHBBHB"
+      ],
+      "badge": "HJH",
+      "imagePublicId": "usf-cars/car-1772319220266",
+      "imageAlt": "HBH",
+      "active": true,
+      "createdAt": "2026-02-28T22:53:41.258Z",
+      "updatedAt": "2026-02-28T22:53:41.258Z"
     }
   ]
 }
