@@ -1,0 +1,22 @@
+{
+  "version": "1772306601473",
+  "updatedAt": "2026-02-28T19:23:21.473Z",
+  "cars": [
+    {
+      "id": "car-1772306573686",
+      "category": "Économique",
+      "name": "DDD",
+      "price": "90",
+      "unit": "90 MAD/jour",
+      "features": [
+        "JJJ"
+      ],
+      "badge": "JK",
+      "imagePublicId": "usf-cars/car-1772306572718",
+      "imageAlt": "JLLI",
+      "active": true,
+      "createdAt": "2026-02-28T19:22:53.686Z",
+      "updatedAt": "2026-02-28T19:22:53.686Z"
+    }
+  ]
+}
