@@ -1,6 +1,6 @@
 {
-  "version": "1772319371575",
-  "updatedAt": "2026-02-28T22:56:11.575Z",
+  "version": "1772319703622",
+  "updatedAt": "2026-02-28T23:01:43.622Z",
   "cars": [
     {
       "id": "car-1772316362960",
@@ -54,9 +54,9 @@
       "badge": "GG",
       "imagePublicId": "usf-cars/car-1772316967707",
       "imageAlt": "FF",
-      "active": true,
+      "active": false,
       "createdAt": "2026-02-28T22:16:08.671Z",
-      "updatedAt": "2026-02-28T22:16:08.672Z"
+      "updatedAt": "2026-02-28T23:01:28.106Z"
     },
     {
       "id": "car-1772317514706",
