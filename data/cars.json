@@ -1,24 +1,42 @@
 {
-  "version": "1772313948966",
-  "updatedAt": "2026-02-28T21:25:48.966Z",
+  "version": "1772316816262",
+  "updatedAt": "2026-02-28T22:13:36.262Z",
   "cars": [
     {
-      "id": "car-1772306573686",
+      "id": "car-1772316362960",
       "category": "Économique",
-      "name": "CAR NAME TEST",
-      "price": "90",
-      "unit": "91 MAD/jour",
+      "name": "TEST NAME",
+      "price": "404",
+      "unit": "MAD/jour",
       "features": [
-        "jjj",
-        "kkk",
-        "ddd sss"
+        "GG",
+        "ZZ",
+        "FF"
       ],
       "badge": "VIP",
-      "imagePublicId": "usf-cars/car-1772306660922",
-      "imageAlt": "bla image bla",
+      "imagePublicId": "usf-cars/car-1772316362196",
+      "imageAlt": "BLA BLA BLA BLA",
       "active": true,
-      "createdAt": "2026-02-28T19:22:53.686Z",
-      "updatedAt": "2026-02-28T19:24:22.224Z"
+      "createdAt": "2026-02-28T22:06:02.960Z",
+      "updatedAt": "2026-02-28T22:06:02.960Z"
+    },
+    {
+      "id": "car-1772316424050",
+      "category": "SUV",
+      "name": "TEST 2",
+      "price": "9000",
+      "unit": "MAD/jour",
+      "features": [
+        "4 PLACE",
+        "RRR",
+        "WAW"
+      ],
+      "badge": "BEST",
+      "imagePublicId": "usf-cars/car-1772316423521",
+      "imageAlt": "BLA BLA",
+      "active": true,
+      "createdAt": "2026-02-28T22:07:04.050Z",
+      "updatedAt": "2026-02-28T22:07:04.050Z"
     }
   ]
 }
