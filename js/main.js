@@ -51,7 +51,7 @@ function whatsappUrl(number, message) {
 // On failure, CONFIG.business is used as-is (safe degradation).
 async function loadSettings() {
   try {
-    const res = await fetch('/data/settings.json', { cache: 'no-store' });
+    const res = await fetch('data/settings.json', { cache: 'no-store' });
     if (!res.ok) return;
     const settings = await res.json();
 
@@ -79,7 +79,7 @@ async function loadSettings() {
 async function loadFleet() {
   try {
     // cache: 'no-store' ensures visitors always get the latest after an admin update
-    const res = await fetch('/data/cars.json', { cache: 'no-store' });
+    const res = await fetch('data/cars.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     const data = await res.json();
@@ -239,7 +239,7 @@ function renderFleet(cars, source) {
   // Source badge only visible in dev (localhost / 127.0.0.1)
   const devBadge = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
     ? `<p style="text-align:center;font-size:0.7rem;color:var(--white-40);margin-bottom:12px;">
-        Source: <strong style="color:var(--gold)">${source === 'remote' ? '/data/cars.json' : 'CONFIG.fleet (fallback)'}</strong>
+        Source: <strong style="color:var(--gold)">${source === 'remote' ? 'data/cars.json' : 'CONFIG.fleet (fallback)'}</strong>
        </p>`
     : '';
 
